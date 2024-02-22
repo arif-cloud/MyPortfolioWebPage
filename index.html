@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!---box icons link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!---remix icons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!---google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script type="application/ld+json" class="schemantra.com">{
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "Arif Demiryas",
+        "colleague": "Uskudar University",
+        "email": "arifdemiryas@hotmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/arif-demiryas-984427191/",
+          "https://github.com/arif-cloud",
+          "https://www.instagram.com/4rif_demiryas",
+          "https://medium.com/@arifdemiryas"
+        ],
+        "jobTitle": "Computer Engineer",
+        "knowsLanguage": [
+          "Turkish",
+          "English"
+        ],
+        "birthDate": "2001-03-08"
+      }</script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">My <span>Portfolio.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#articles">Articles</a></li>
+        </ul>
+        <div class="top-button">
+            <a href="#contact-me" class="h-btn">Contact me</a>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="main-content">
+            <h4>Hi , There!</h4>
+            <h1>I'm <span>Arif Demiryas</span></h1>
+            <p> I'm a 4th year student of computer engineering. I'm improving myself in Java, Kotlin and
+            Android SDK and I'm familiar with the most common third party SDK's</p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/arif-demiryas-984427191/"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/arif-cloud"><i class="ri-github-fill"></i></a>
+                <a href="https://www.instagram.com/4rif_demiryas"><i class="ri-instagram-fill"></i></a>
+                <a href="https://medium.com/@arifdemiryas"><i class="ri-medium-fill"></i></a>
+            </div>
+        </div>
+        <div class="main-image">
+            <img src="img/photo.jpeg">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="center-text">
+            <h2>About</h2>
+        </div>
+        <div class="about-content">
+            <div class="box">
+                <img src="img/android-icon.png">
+                <h3>Android</h3>
+                <p>Develops applications suitable for MVVM Clean Architecture. Integrates Jetpack Libraries into its projects. 
+                Uses Jetpack compose when developing user-friendly interfaces.</p>
+            </div>
+            <div class="box">
+                <img src="img/backend-icon.png">
+                <h3>Backend</h3>
+                <p>Develops Rest API with Java Spring Boot. Usually uses Mongodb as a database in projects. 
+                Uses docker to run applications in a standalone and isolated environment.</p>
+            </div>
+            <div class="box">
+                <img src="img/data-icon.png">
+                <h3>Data Science</h3>
+                <p>Interested in Data Dcience with Python and also Artificial Intelligence. Researches Machine Learning algorithms. 
+                Develops projects with Python libraries.</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="center-text">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="projects-content">
+            <div class="row">
+                <img src="https://user-images.githubusercontent.com/73065590/232078012-3ecaca19-ec9e-4197-ae23-5ffd154df2c8.png">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Android Development</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>
+                    <a href="https://github.com/arif-cloud/RickAndMortyApplication">Rick and Morty App</a>
+                </h4>
+            </div>
+            <div class="row">
+                <img src="https://user-images.githubusercontent.com/73065590/236443971-b773ba90-bc54-435e-9daf-2b888b65a1c3.jpg">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Android Development</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>
+                    <a href="https://github.com/arif-cloud/MoviesApp">Movies App</a>
+                </h4>
+            </div>
+        </div>
+    </section>
+    <section class="articles" id="articles">
+        <div class="center-text">
+            <h2>My <span>Articles</span></h2>
+        </div>
+        <div class="articles-content">
+            <div class="article">
+                <div class="main-column">
+                    <h5 class="release-date">Jul 10, 2023</h5>
+                    <h4>
+                        <a href="https://medium.com/@arifdemiryas/what-is-intent-in-android-5202f9e78b64">What is Intent in Android ?</a>
+                    </h4>
+                    <p>Android uses intent to enable components within the application to communicate with each other. 
+                    It can also provide communication between two different applications. Switching between activities ...</p>
+                    <ul class="tag-list">
+                        <li><h5>Android</h5></li>
+                        <li><h5>Intent</h5></li>
+                        <li><h5>Mobile App Development</h5></li>
+                        <li><h5>Kotlin</h5></li>
+                    </ul>
+                </div>
+                <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fDMjE2Qipk2NNSvkoLQi-g.jpeg">
+            </div>
+            <div class="article">
+                <div class="main-column">
+                    <h5 class="release-date">Jul 1, 2023</h5>
+                    <h4>
+                        <a href="https://medium.com/@arifdemiryas/mvvm-model-view-viewmodel-in-android-f46b62ff6008">MVVM (Model View ViewModel) in Android</a>
+                    </h4>
+                    <p>MVVM is the architectural structure that allows to separate the data presentation logic (UI or Views) from the business logic. 
+                    Model : This layer is holds the data of the application. It cannot directly talk to the ...</p>
+                    <ul class="tag-list">
+                        <li><h5>Android</h5></li>
+                        <li><h5>Kotlin</h5></li>
+                        <li><h5>Mvvm Architecture</h5></li>
+                        <li><h5>Software Development</h5></li>
+                    </ul>
+                </div>
+                <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*qixvNB-7HTXjuzKIrf_qKw.jpeg">
+            </div>
+            <div class="article">
+                <div class="main-column">
+                    <h5 class="release-date">Jun 18, 2023</h5>
+                    <h4>
+                        <a href="https://medium.com/@arifdemiryas/what-is-kotlin-coroutines-on-android-1a95f3327de9">What is Kotlin Coroutines in Android ?</a>
+                    </h4>
+                    <p>Before I start the topic, I want to tell you about threads. Firstly, the currently executing program is defined as a process. 
+                    The structure that allow a process to do more than one job at the same time are called ...</p>
+                    <ul class="tag-list">
+                        <li><h5>Android</h5></li>
+                        <li><h5>Kotlin</h5></li>
+                        <li><h5>Mobile App Development</h5></li>
+                        <li><h5>Software Development</h5></li>
+                    </ul>
+                </div>
+                <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZOGg7C-aSlfReeogHiJcqw.jpeg">
+            </div>
+        </div>      
+    </section>
+    <section class="contact-me" id="contact-me">
+        <div class="center-text">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="contact-form">
+            <form id="contact-me-form" onsubmit="sendEmail()">
+                <input id="name-input" type="text" placeholder="Your Name" required>
+                <input id="email-input" type="email" placeholder="Email Address" required>
+                <textarea id="message-input" cols="30" rows="10" placeholder="Write Message Here ..." required></textarea>
+                <button type="submit" class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <!---js link-->
+    <script src="script.js"></script>
+</body>
+
+</html>
