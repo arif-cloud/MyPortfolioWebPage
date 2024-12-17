@@ -30,7 +30,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"rel="stylesheet">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script type="application/ld+json" class="schemantra.com">{
         "@context": "https://schema.org",
@@ -63,21 +62,19 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#articles">Articles</a></li>
         </ul>
-        <div class="top-button">
-            <a href="#contact-me" class="h-btn">Contact me</a>
-        </div>
     </header>
     <section class="hero" id="home">
         <div class="main-content">
             <h4>Hi , There!</h4>
             <h1>I'm <span>Arif Demiryas</span></h1>
-            <p> I'm a 4th year student of computer engineering. I'm improving myself in Java, Kotlin and
+            <p> I am a computer engineering graduate. I'm improving myself in Java, Kotlin and
             Android SDK and I'm familiar with the most common third party SDK's</p>
             <div class="social">
                 <a href="https://www.linkedin.com/in/arif-demiryas-984427191/"><i class="ri-linkedin-fill"></i></a>
                 <a href="https://github.com/arif-cloud"><i class="ri-github-fill"></i></a>
-                <a href="https://www.instagram.com/4rif_demiryas"><i class="ri-instagram-fill"></i></a>
+                <a href="https://play.google.com/store/apps/developer?id=JoyMind+Apps"><i class="ri-google-play-fill"></i></a>
                 <a href="https://medium.com/@arifdemiryas"><i class="ri-medium-fill"></i></a>
+                <a href="https://www.instagram.com/4rif_demiryas"><i class="ri-instagram-fill"></i></a>
             </div>
         </div>
         <div class="main-image">
@@ -114,35 +111,35 @@
             <h2>My <span>Projects</span></h2>
         </div>
         <div class="projects-content">
-            <div class="row">
-                <img src="https://user-images.githubusercontent.com/73065590/232078012-3ecaca19-ec9e-4197-ae23-5ffd154df2c8.png">
+            <div class="row" data-link="https://play.google.com/store/apps/details?id=com.arifdemiryas.countryguessapp">
+                <img src="img/country-quest.png">
                 <div class="main-row">
                     <div class="row-text">
-                        <h5>Android Development</h5>
+                        <h5>Android App</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <i class="ri-google-play-fill"></i>
                     </div>
                 </div>
                 <h4>
-                    <a href="https://github.com/arif-cloud/RickAndMortyApplication">Rick and Morty App</a>
+                    <a>Country Quest</a>
                 </h4>
             </div>
-            <div class="row">
-                <img src="https://raw.githubusercontent.com/arif-cloud/MoviesApp/main/MovieApp.png">
+            <div class="row" data-link="https://play.google.com/store/apps/details?id=com.arifdemiryas.vocabularyapp">
+                <img src="img/word-lab.png">
                 <div class="main-row">
                     <div class="row-text">
-                        <h5>Android Development</h5>
+                        <h5>Android App</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <i class="ri-google-play-fill"></i>
                     </div>
                 </div>
                 <h4>
-                    <a href="https://github.com/arif-cloud/MoviesApp">Movies App</a>
+                    <a>Word Lab</a>
                 </h4>
             </div>
-            <div class="row">
+            <div class="row" data-link="https://github.com/arif-cloud/GraduationProject-ArticleApp">
                 <img src="https://raw.githubusercontent.com/arif-cloud/GraduationProject-ArticleApp/master/Screenshots/mockup.png">
                 <div class="main-row">
                     <div class="row-text">
@@ -153,7 +150,35 @@
                     </div>
                 </div>
                 <h4>
-                    <a href="https://github.com/arif-cloud/GraduationProject-ArticleApp">Radar Minds</a>
+                    <a>Radar Minds</a>
+                </h4>
+            </div>
+            <div class="row" data-link="https://github.com/arif-cloud/MoviesApp">
+                <img src="https://raw.githubusercontent.com/arif-cloud/MoviesApp/main/MovieApp.png">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Android Development</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>
+                    <a>Movies App</a>
+                </h4>
+            </div>
+            <div class="row" data-link="https://github.com/arif-cloud/RickAndMortyApplication">
+                <img src="https://user-images.githubusercontent.com/73065590/232078012-3ecaca19-ec9e-4197-ae23-5ffd154df2c8.png">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Android Development</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>
+                    <a>Rick and Morty App</a>
                 </h4>
             </div>
         </div>
@@ -163,11 +188,27 @@
             <h2>My <span>Articles</span></h2>
         </div>
         <div class="articles-content">
-            <div class="article">
+            <div class="article" data-link="https://medium.com/@arifdemiryas/jetpack-compose-state-management-55d895affa00">
                 <div class="main-column">
                     <h5 class="release-date">Jul 10, 2023</h5>
                     <h4>
-                        <a href="https://medium.com/@arifdemiryas/what-is-intent-in-android-5202f9e78b64">What is Intent in Android ?</a>
+                        <a>Jetpack Compose State Management</a>
+                    </h4>
+                    <p>State management in Android Jetpack Compose ensures that user interactions are 
+                    managed properly and the UI is instantly updated with newly updated data ...</p>
+                    <ul class="tag-list">
+                        <li><h5>Android</h5></li>
+                        <li><h5>Jetpack Compose</h5></li>
+                        <li><h5>Kotlin</h5></li>
+                    </ul>
+                </div>
+                <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Rk5JWexHINlzyxm8uSAsLA.png">
+            </div>
+            <div class="article" data-link="https://medium.com/@arifdemiryas/what-is-intent-in-android-5202f9e78b64">
+                <div class="main-column">
+                    <h5 class="release-date">Jul 10, 2023</h5>
+                    <h4>
+                        <a>What is Intent in Android ?</a>
                     </h4>
                     <p>Android uses intent to enable components within the application to communicate with each other. 
                     It can also provide communication between two different applications. Switching between activities ...</p>
@@ -180,11 +221,11 @@
                 </div>
                 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fDMjE2Qipk2NNSvkoLQi-g.jpeg">
             </div>
-            <div class="article">
+            <div class="article" data-link="https://medium.com/@arifdemiryas/mvvm-model-view-viewmodel-in-android-f46b62ff6008">
                 <div class="main-column">
                     <h5 class="release-date">Jul 1, 2023</h5>
                     <h4>
-                        <a href="https://medium.com/@arifdemiryas/mvvm-model-view-viewmodel-in-android-f46b62ff6008">MVVM (Model View ViewModel) in Android</a>
+                        <a>MVVM (Model View ViewModel) in Android</a>
                     </h4>
                     <p>MVVM is the architectural structure that allows to separate the data presentation logic (UI or Views) from the business logic. 
                     Model : This layer is holds the data of the application. It cannot directly talk to the ...</p>
@@ -197,11 +238,11 @@
                 </div>
                 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*qixvNB-7HTXjuzKIrf_qKw.jpeg">
             </div>
-            <div class="article">
+            <div class="article" data-link="https://medium.com/@arifdemiryas/what-is-kotlin-coroutines-on-android-1a95f3327de9">
                 <div class="main-column">
                     <h5 class="release-date">Jun 18, 2023</h5>
                     <h4>
-                        <a href="https://medium.com/@arifdemiryas/what-is-kotlin-coroutines-on-android-1a95f3327de9">What is Kotlin Coroutines in Android ?</a>
+                        <a>What is Kotlin Coroutines in Android ?</a>
                     </h4>
                     <p>Before I start the topic, I want to tell you about threads. Firstly, the currently executing program is defined as a process. 
                     The structure that allow a process to do more than one job at the same time are called ...</p>
@@ -215,19 +256,6 @@
                 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZOGg7C-aSlfReeogHiJcqw.jpeg">
             </div>
         </div>      
-    </section>
-    <section class="contact-me" id="contact-me">
-        <div class="center-text">
-            <h2>Contact <span>Me</span></h2>
-        </div>
-        <div class="contact-form">
-            <form id="contact-me-form" onsubmit="sendEmail()">
-                <input id="name-input" type="text" placeholder="Your Name" required>
-                <input id="email-input" type="email" placeholder="Email Address" required>
-                <textarea id="message-input" cols="30" rows="10" placeholder="Write Message Here ..." required></textarea>
-                <button type="submit" class="send-btn">Send Message</button>
-            </form>
-        </div>
     </section>
     <!---js link-->
     <script src="script.js"></script>
